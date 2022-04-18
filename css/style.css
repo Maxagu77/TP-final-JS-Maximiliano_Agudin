@@ -1,0 +1,95 @@
+body.container {
+    background-color: aqua;  
+}
+#titulo {
+    margin-top: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: black;
+}
+
+section.entrada {
+    gap: 40px;
+    margin-top: 50px;
+    display: flex;
+    justify-items: center;
+}
+
+#tabla {
+
+    text-align: center;
+    border:1px solid black; 
+}
+
+.divBot {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+#formulario {
+    position: absolute;
+    margin-top: -230px;
+    margin-left: 5px;
+    height: 220px;
+    width: 230px;
+    background-color: blueviolet;
+    color: antiquewhite; 
+    /* position: fixed; */   
+}
+#formulario p  {
+    margin-top: 10px;
+    margin-left: 20px;
+} 
+
+#formulario p input {
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+#formulario button{
+    margin-left: 75px;
+    border-bottom: black solid 2px;
+}
+
+#tablaProv {
+    justify-content: center;
+    margin-top: 50px;
+    display: flex;
+}
+#clientes {
+    height: 283px;
+}
+#telefonos {  
+    display: block;
+    margin-top: -2px;
+    margin-left: 0px;
+}
+.tituloTel {
+    text-align: center;
+}
+
+.footer {
+    width: auto;
+    margin-top: 200px;
+    background-color: black;
+    height: 60px;
+  }
+  
+  .footer_realizado {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+  }
+  
+  .footer_redes {
+    margin-top:-12px;
+    gap: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
